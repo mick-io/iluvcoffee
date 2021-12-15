@@ -27,6 +27,9 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     // '@typescript-eslint/no-explicit-any': 'on',
     'max-len': 120,
+    'sort-imports': ["warn", {
+      allowSeparateGroups: true
+    }]
   },
   overrides: {
     files: ['*.js', '*.jsx'],
